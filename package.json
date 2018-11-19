@@ -1,0 +1,25 @@
+{
+  "name": "slack-bot-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "dependencies": {
+    "@octokit/rest": "^15.9.2",
+    "backlog-js": "^0.9.1",
+    "botkit": "^0.6.14",
+    "confluence-api": "^1.3.0",
+    "cron": "^1.3.0",
+    "isomorphic-fetch": "^2.2.1",
+    "isomorphic-form-data": "^1.0.0",
+    "jira-client": "^6.4.1",
+    "require-dir": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "prestart": "echo starting",
+    "start": "node bot.js",
+    "forever": "forever start bot.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
